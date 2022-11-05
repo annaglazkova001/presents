@@ -1,38 +1,73 @@
-.App {
-  text-align: center;
+.main {
+  background-color: #FF8DC7;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 30px;
+  justify-content: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{margin:0}
+
+h1 {
+  font-size: 40px;
+  color: #FFDDD2;
+  font-family: 'Raleway', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h2 {
+  font-family: 'Raleway', sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-transform: uppercase;
+}
+
+p {
+  display: flex;
+  font-size: 20px;
+  margin-left: 145px;
+  margin-right: 145px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.btn {
+  padding: 5px;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: 10px;
+  width: 145px;
+  display: flex;
+  font-size: 15px;
+  text-transform: uppercase;
+  margin: 10px;
+  background-color: #FFDDD2;
+  border: none;
+  font-family: 'Raleway', sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
+.btn2 {
+  padding-left: 100px;
+  padding-right: 100px;
+  background-color: #FFDDD2;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.insideContainer {
+  display: flex;
 }
+
+.btnInside {
+  display: flex;
+  width: 60px;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFDDD2;
+  border: none;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+
