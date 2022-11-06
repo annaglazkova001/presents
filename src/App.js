@@ -81,14 +81,6 @@ const previousTravel =() => {
   }))
 }
 
-//delete one item
-
-const removeJewelery = (id1) => {
-  let newJewelery = jewelery.filter(ring => ring.id1 !== id1);
-    console.log(newJewelery)
-  }
-
-//delete all
 
 return (
 <div className='main'>
@@ -96,9 +88,7 @@ return (
       <div className='container'>
   <h1>Presents</h1>
     </div>
-      <div className='container'>
-        <button className='btn2 btn'>delete all</button>
-      </div><div className='container'>
+<div className='container'>
           <h2>Jewelery</h2>
           <h3>{id1} - {shop1}</h3>
 
@@ -107,8 +97,6 @@ return (
             <img src={image1} width='300px' alt='ring' />
             <button className='btnInside' onClick={nextJewelery}>next</button>
           </div>
-
-          <button className='btn' onClick={() => removeJewelery(id1)}>delete</button>
 
         </div>
     )
@@ -124,8 +112,6 @@ return (
   <button className='btnInside' onClick = {nextPurse}>next</button>
   </div>
 
-  <button className='btn' >delete</button>
-
   </div>
 
   <div className='container'>
@@ -140,10 +126,6 @@ return (
 </div>
 
 <p>{description3}</p>
-
-  <button className='btn'>delete</button>
-
-
   </div>
 
 
