@@ -1,6 +1,5 @@
 export const dataTravel = [
 {
-    id: 3,
     id3: 1,
     name3: 'Hawaii',
     image3:'https://images.unsplash.com/photo-1505852679233-d9fd70aff56d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80',
@@ -8,7 +7,6 @@ export const dataTravel = [
 },
 
 {
-    id: 3,
     id3: 2,
     name3: 'Alaska',
     image3:'https://images.unsplash.com/photo-1574788901656-6a9ee34a3fa7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80',
@@ -16,7 +14,6 @@ export const dataTravel = [
 },
 
 {
-    id: 3,
     id3: 3,
     name3: 'Oregon',
     image3:'https://images.unsplash.com/photo-1534260574464-1974fc1e6727?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80',
